@@ -6289,6 +6289,9 @@ p {
     text-transform: uppercase; }
     .mattran-info .box-heading a {
       color: #CC0001; }
+  .mattran-info .box-heading {
+    font-size: 1.4rem;
+    padding-left: 1rem; }
   .mattran-info .box-content {
     padding: 1.5rem; }
     .mattran-info .box-content .mattran-search {
@@ -6387,6 +6390,66 @@ p {
         color: #CC0001; }
       .box-file .panel-content .story__heading a {
         display: inline-block; }
+
+.most-read .box-heading {
+  height: 35px;
+  border-left: 8px solid #CC0001;
+  padding-left: 1.5rem;
+  font-size: 1.8rem;
+  line-height: 35px;
+  text-transform: uppercase; }
+  .most-read .box-heading a {
+    color: #CC0001; }
+
+.most-read .box-content {
+  padding: 1.5rem; }
+
+.most-read .panel-wrap {
+  border: 1px solid #dee2e6; }
+  .most-read .panel-wrap::after {
+    display: block;
+    clear: both;
+    content: ""; }
+
+.most-read .panel-title {
+  display: flex;
+  background-color: #dee2e6;
+  border-bottom: 1px solid #dee2e6; }
+  .most-read .panel-title a {
+    height: 30px;
+    padding: 0 1.5rem;
+    line-height: 30px;
+    color: #6c757d;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: 1px solid #dee2e6; }
+    .most-read .panel-title a:first-child {
+      border-left: none; }
+    .most-read .panel-title a:hover, .most-read .panel-title a.is-active {
+      background-color: #fff;
+      color: #343a40; }
+
+.most-read .panel-content {
+  padding-left: 1.5rem;
+  padding-bottom: 1.5rem; }
+  .most-read .panel-content .story__heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-weight: bold;
+    /*!*/
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: bold; }
+    .most-read .panel-content .story__heading i {
+      float: left;
+      margin-top: 2px;
+      font-size: 1rem;
+      margin-right: 1rem;
+      color: #CC0001; }
+    .most-read .panel-content .story__heading a {
+      display: inline-block; }
 
 .search-file {
   background-color: #e9ecef;
@@ -6489,6 +6552,8 @@ p {
     text-transform: uppercase; }
     .box-style-4 .box-heading a {
       color: #CC0001; }
+  .box-style-4 .box-heading {
+    font-size: 1.7rem; }
   .box-style-4 .box-content {
     padding: 1.5rem; }
     .box-style-4 .box-content .rank-1 .story__heading {
@@ -6681,7 +6746,7 @@ p {
 .media-zone {
   padding: 20px;
   margin-top: 30px;
-  background-color: #fff; }
+  background-color: #CC0001; }
   .media-zone::after {
     display: block;
     clear: both;
@@ -6692,6 +6757,14 @@ p {
   .media-zone .col-sub {
     width: 280px;
     float: right; }
+  .media-zone .rank1-media .story .story__heading a,
+  .media-zone .rank2-media .story .story__heading a,
+  .media-zone .rank3-media .story .story__heading a {
+    color: #fff; }
+  .media-zone .rank1-media .story .story__summary,
+  .media-zone .rank2-media .story .story__summary,
+  .media-zone .rank3-media .story .story__summary {
+    color: #fff; }
   .media-zone .rank1-media .story__thumb {
     margin-top: -60px; }
   .media-zone .rank1-media .story__heading {
@@ -6720,6 +6793,10 @@ p {
     text-transform: uppercase; }
     .media-zone .rank3-media .box-heading a {
       color: #CC0001; }
+  .media-zone .rank3-media .box-heading {
+    border-left: 8px solid #fff; }
+    .media-zone .rank3-media .box-heading a {
+      color: #fff; }
   .media-zone .rank3-media .box-content {
     padding-top: 3rem; }
   .media-zone .rank3-media .story {
@@ -7040,7 +7117,7 @@ p {
     position: absolute;
     left: -999em;
     width: 180px;
-    background: #CC0001;
+    background: #990001;
     box-shadow: 0 3px 10px -1px rgba(0, 0, 0, 0.26);
     z-index: 2147483647; }
     .nav__child li:hover,
@@ -7065,8 +7142,11 @@ p {
     font-size: 1.5em; }
   .nav .is-last {
     float: right; }
+    .nav .is-last.nav__parent:hover .nav__child {
+      left: -275px; }
+    .nav .is-last .nav__child {
+      width: 300px; }
     .nav .is-last a {
-      padding: 0 5px;
       display: flex;
       align-items: center; }
     .nav .is-last i {
