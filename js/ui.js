@@ -61,6 +61,10 @@ $('.timeline-event .wrap').bxSlider({
     pause : 20000
 });
 
+$('[data-toggle="tooltip"]').tooltip();   
+
+
+
 /*
 // > go top 
 $("#go-top").click(function() {
