@@ -6899,7 +6899,7 @@ p {
 .media-zone {
   padding: 20px;
   margin-top: 30px;
-  background-color: #CC0001; }
+  background-color: #900; }
   .media-zone::after {
     display: block;
     clear: both;
