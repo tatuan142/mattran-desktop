@@ -52,13 +52,13 @@ $('.news-slider .wrap').bxSlider({
 
 $('.timeline-event .wrap').bxSlider({
     controls: false,
-    slideWidth: 217, 
-    minSlides: 3,
-    maxSlides: 3,
-    moveSlides: 3,
+    pager: true,
+    slideWidth: 650, 
+    minSlides: 1,
+    maxSlides: 1,
+    moveSlides: 1,
     slideMargin: 10,
-    auto : true,
-    pause : 20000
+    auto : true
 });
 
 $('[data-toggle="tooltip"]').tooltip();   
