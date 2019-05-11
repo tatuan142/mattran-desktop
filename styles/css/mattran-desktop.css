@@ -8067,7 +8067,8 @@ p {
       font-weight: bold;
       font-style: italic;
       color: #777;
-      text-align: center; }
+      text-align: center;
+      margin-top: 5px; }
     .article__content-img.full {
       width: 100%; }
       .article__content-img.full figcaption.fig {
@@ -8090,7 +8091,14 @@ p {
     margin: 5px 20px 10px 0px;
     width: 40%;
     background-color: #CC0001;
-    float: left; }
+    float: left;
+    position: relative; }
+    .article__quote > i {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      font-size: 60px;
+      color: #fff; }
     .article__quote .text {
       text-indent: 70px;
       padding-top: 40px;
