@@ -6255,9 +6255,16 @@ p {
     padding-left: 1.5rem;
     font-size: 1.8rem;
     line-height: 35px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all .2s linear; }
     .box-intro .box-heading a {
-      color: #CC0001; }
+      color: #CC0001;
+      display: block; }
+    .box-intro .box-heading:hover {
+      border-color: #990001; }
+      .box-intro .box-heading:hover a {
+        color: #990001; }
   .box-intro .box-content {
     padding: 1rem; }
   .box-intro .item::after {
@@ -6311,9 +6318,16 @@ p {
     padding-left: 1.5rem;
     font-size: 1.8rem;
     line-height: 35px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all .2s linear; }
     .box-relate-site .box-heading a {
-      color: #CC0001; }
+      color: #CC0001;
+      display: block; }
+    .box-relate-site .box-heading:hover {
+      border-color: #990001; }
+      .box-relate-site .box-heading:hover a {
+        color: #990001; }
   .box-relate-site .box-content {
     padding: 1.5rem; }
     .box-relate-site .box-content .select-relate-site {
@@ -6386,7 +6400,8 @@ p {
   .send-us span {
     padding-top: 4px; }
   .send-us:hover {
-    background-color: #990001; }
+    background-color: #990001;
+    color: #fff; }
 
 .mattran-info {
   padding-top: 1.5rem; }
@@ -6396,9 +6411,16 @@ p {
     padding-left: 1.5rem;
     font-size: 1.8rem;
     line-height: 35px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all .2s linear; }
     .mattran-info .box-heading a {
-      color: #CC0001; }
+      color: #CC0001;
+      display: block; }
+    .mattran-info .box-heading:hover {
+      border-color: #990001; }
+      .mattran-info .box-heading:hover a {
+        color: #990001; }
   .mattran-info .box-heading {
     font-size: 1.4rem;
     padding-left: 1rem; }
@@ -6451,9 +6473,16 @@ p {
     padding-left: 1.5rem;
     font-size: 1.8rem;
     line-height: 35px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all .2s linear; }
     .box-file .box-heading a {
-      color: #CC0001; }
+      color: #CC0001;
+      display: block; }
+    .box-file .box-heading:hover {
+      border-color: #990001; }
+      .box-file .box-heading:hover a {
+        color: #990001; }
   .box-file .box-content {
     padding: 1.5rem; }
   .box-file .panel-wrap {
@@ -6483,6 +6512,10 @@ p {
   .box-file .panel-content {
     padding-left: 1.5rem;
     padding-bottom: 1.5rem; }
+    .box-file .panel-content .panel {
+      display: none; }
+      .box-file .panel-content .panel.is-active {
+        display: block; }
     .box-file .panel-content .story__heading {
       display: flex;
       justify-content: space-between;
@@ -6507,9 +6540,16 @@ p {
   padding-left: 1.5rem;
   font-size: 1.8rem;
   line-height: 35px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  background-color: transparent;
+  transition: all .2s linear; }
   .most-read .box-heading a {
-    color: #CC0001; }
+    color: #CC0001;
+    display: block; }
+  .most-read .box-heading:hover {
+    border-color: #990001; }
+    .most-read .box-heading:hover a {
+      color: #990001; }
 
 .most-read .box-content {
   padding: 1.5rem; }
@@ -6659,9 +6699,16 @@ p {
     padding-left: 1.5rem;
     font-size: 1.8rem;
     line-height: 35px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all .2s linear; }
     .box-style-4 .box-heading a {
-      color: #CC0001; }
+      color: #CC0001;
+      display: block; }
+    .box-style-4 .box-heading:hover {
+      border-color: #990001; }
+      .box-style-4 .box-heading:hover a {
+        color: #990001; }
   .box-style-4 .box-heading {
     font-size: 1.7rem; }
   .box-style-4 .box-content {
@@ -6744,7 +6791,7 @@ p {
   padding: 16px; }
 
 .rank1-stories {
-  height: 520px;
+  height: 470px;
   overflow: hidden; }
   .rank1-stories .story__thumb {
     margin-left: -8px;
@@ -6767,7 +6814,8 @@ p {
 .rank2-stories {
   padding: 8px;
   padding-right: 0;
-  height: 520px; }
+  height: 470px;
+  overflow: hidden; }
   .rank2-stories .slimScrollDiv {
     padding-right: 8px; }
   .rank2-stories .slimScrollBar {
@@ -6834,7 +6882,7 @@ p {
 .media-zone {
   padding: 20px;
   margin-top: 30px;
-  background-color: #900; }
+  background: #CC0001 url(../img/trongdong-video-bg-min.png) center top no-repeat; }
   .media-zone::after {
     display: block;
     clear: both;
@@ -6897,9 +6945,16 @@ p {
     padding-left: 1.5rem;
     font-size: 1.8rem;
     line-height: 35px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all .2s linear; }
     .media-zone .rank3-media .box-heading a {
-      color: #CC0001; }
+      color: #CC0001;
+      display: block; }
+    .media-zone .rank3-media .box-heading:hover {
+      border-color: #990001; }
+      .media-zone .rank3-media .box-heading:hover a {
+        color: #990001; }
   .media-zone .rank3-media .box-heading {
     border-left: 8px solid #fff; }
     .media-zone .rank3-media .box-heading a {
@@ -6931,9 +6986,16 @@ p {
     padding-left: 1.5rem;
     font-size: 1.8rem;
     line-height: 35px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all .2s linear; }
     .box-style-1 .box-heading a {
-      color: #CC0001; }
+      color: #CC0001;
+      display: block; }
+    .box-style-1 .box-heading:hover {
+      border-color: #990001; }
+      .box-style-1 .box-heading:hover a {
+        color: #990001; }
   .box-style-1 .box-content {
     margin-top: 20px; }
     .box-style-1 .box-content .rank-1 {
@@ -6980,9 +7042,16 @@ p {
     padding-left: 1.5rem;
     font-size: 1.8rem;
     line-height: 35px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all .2s linear; }
     .box-style-2 .box-heading a {
-      color: #CC0001; }
+      color: #CC0001;
+      display: block; }
+    .box-style-2 .box-heading:hover {
+      border-color: #990001; }
+      .box-style-2 .box-heading:hover a {
+        color: #990001; }
   .box-style-2 .box-content {
     margin-top: 20px; }
     .box-style-2 .box-content .rank-1 .story__thumb {
@@ -7023,9 +7092,16 @@ p {
     padding-left: 1.5rem;
     font-size: 1.8rem;
     line-height: 35px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: all .2s linear; }
     .box-style-3 .box-heading a {
-      color: #CC0001; }
+      color: #CC0001;
+      display: block; }
+    .box-style-3 .box-heading:hover {
+      border-color: #990001; }
+      .box-style-3 .box-heading:hover a {
+        color: #990001; }
   .box-style-3 .box-content {
     margin-top: 20px; }
     .box-style-3 .box-content .rank-1 .story {
@@ -7162,14 +7238,34 @@ p {
     display: flex;
     justify-content: space-between; }
     .site-header__body .social-link a {
-      display: block;
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      width: 70px;
+      height: 60px;
+      margin: 0 6px;
+      padding-top: 10px;
+      border-radius: 5px;
       color: #fff;
-      text-align: center;
-      width: 100px;
-      border-left: 1px solid rgba(255, 255, 255, 0.5);
-      font-size: 1.2rem; }
+      font-size: 1.2rem;
+      background-color: transparent;
+      transition: all .2s linear; }
+      .site-header__body .social-link a:before {
+        content: '';
+        width: 1px;
+        height: 60px;
+        position: absolute;
+        left: -5px;
+        top: 0;
+        background-color: rgba(255, 255, 255, 0.5); }
+      .site-header__body .social-link a:hover {
+        background-color: rgba(255, 255, 255, 0.2); }
       .site-header__body .social-link a:first-child {
         border-left: none; }
+        .site-header__body .social-link a:first-child:before {
+          content: none; }
       .site-header__body .social-link a i {
         display: block;
         margin-bottom: 1rem;
@@ -8304,9 +8400,16 @@ p {
       padding-left: 1.5rem;
       font-size: 1.8rem;
       line-height: 35px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      background-color: transparent;
+      transition: all .2s linear; }
       .article__more-news .box-heading a {
-        color: #CC0001; }
+        color: #CC0001;
+        display: block; }
+      .article__more-news .box-heading:hover {
+        border-color: #990001; }
+        .article__more-news .box-heading:hover a {
+          color: #990001; }
     .article__more-news .box-content .rank-2 {
       display: flex;
       justify-content: space-between;
