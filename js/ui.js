@@ -65,7 +65,7 @@ $('.timeline-event .wrap').bxSlider({
 $('[data-toggle="tooltip"]').tooltip();   
 
 // tab
-$(".box-file .panel-title a").click(function(e) {
+$(".most-read .panel-title a").click(function(e) {
     e.preventDefault();
     $(this).addClass("is-active");
     $(this).siblings().removeClass("is-active");
