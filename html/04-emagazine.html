@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>03-article.html</title>
+    <title>04-van-ban.html</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,176 +15,856 @@
 </head>
 
 <body>
-    <header class="site-header">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-auto aside-header">
-                    <button class="go-back"><i class="icon icon--mix-back"></i></button>
-                </div>
-                <div class="col main-header flex-nowrap">
-                    <a href="#" class="logo"></a>
-                    <h1 class="topic-title"><a href="">Kỉ niệm ngày nhà báo Việt Nam 21.06.2019</a></h1>
-                    <!-- 
-                    <div class="group-link">
-                        <a href="#">Chương 1</a>
-                        <a href="#">Chương 2</a>
-                        <a href="#">Chương 3</a>
-                        <a href="#">Chương 4</a>
+    <div class="wrapper">
+        <header class="site-header">
+            <div class="site-header__top">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-8">
+                            <span class="info">Hotline : 0961618618</span>
+                            <p class="link">
+                                <a href="#">Giới thiệu</a>
+                                <a href="#">Đặt báo</a>
+                                <a href="#">Liên hệ quảng cáo</a>
+                            </p>
+                        </div>
+                        <div class="col-4">
+                            <div class="header-search">
+                                <input type="text" placeholder="Nhập nội dung tìm kiếm">
+                                <button><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
                     </div>
-                     -->
-                    <div class="social-comment">
-                        <a href="#"><i class="icon icon--social-fb"></i></a>
-                        <a href="#"><i class="icon icon--social-zalo"></i></a>
-                        <a href="#"><i class="icon icon--social-comment"></i></a>
+                </div>
+            </div>
+            <div class="site-header__body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="logo"><a href="01-homepage.html"></a></h1>
+                            <div class="social-link">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <span>Facebook</span>
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <span>Mobile</span>
+                                </a>
+                                <a href="#">
+                                    <i class="far fa-envelope"></i>
+                                    <span>Email</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="nav-wrap">
+            <div class="nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <ul>
+                                <li class="nav__parent is-first">
+                                    <a href="01-homepage.html">
+                                        <i class="fas fa-home"></i>
+                                    </a>
+                                </li>
+                                <li class="nav__parent child-1 is-active">
+                                    <a href="02-category.html" data-id="121">
+                                        <span>DÂN NGUYỆN</span></a>
+                                    <ul class="nav__child">
+                                        <li>
+                                            <a href="02-category.html" data-id="144">
+                                                <span>Thời sự</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="4">
+                                                <span>Giao thông</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="3">
+                                                <span>Môi trường - Khí hậu</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav__parent  child-2">
+                                    <a href="02-category.html" data-id="119">
+                                        <span>Hoạt động của mặt trận</span></a>
+                                    <ul class="nav__child">
+                                    </ul>
+                                </li>
+                                <li class="nav__parent  child-3">
+                                    <a href="02-category.html" data-id="54">
+                                        <span>Mặt trận các cấp</span></a>
+                                    <ul class="nav__child">
+                                        <li>
+                                            <a href="02-category.html" data-id="15">
+                                                <span>Nghệ thuật</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="84">
+                                                <span>Ẩm thực</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="137">
+                                                <span>Du lịch</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav__parent  child-4">
+                                    <a href="02-category.html" data-id="45">
+                                        <span>Thời sự</span></a>
+                                    <ul class="nav__child">
+                                        <li>
+                                            <a href="02-category.html" data-id="7">
+                                                <span>Kinh doanh</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="47">
+                                                <span>Lao động - Việc làm</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="126">
+                                                <span>Tài chính</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="127">
+                                                <span>Chứng khoán</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav__parent  child-5">
+                                    <a href="02-category.html" data-id="59">
+                                        <span>Sức khỏe</span></a>
+                                    <ul class="nav__child">
+                                        <li>
+                                            <a href="02-category.html" data-id="107">
+                                                <span>Học bổng - Du học</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="108">
+                                                <span>Đào tạo - Thi cử</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav__parent  child-6">
+                                    <a href="02-category.html" data-id="55">
+                                        <span>Văn bản</span></a>
+                                    <ul class="nav__child">
+                                        <li>
+                                            <a href="02-category.html" data-id="86">
+                                                <span>Bóng đá quốc tế</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="87">
+                                                <span>Bóng đá Việt Nam</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="88">
+                                                <span>Quần vợt</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav__parent  child-7">
+                                    <a href="02-category.html" data-id="52">
+                                        <span>Clip sưu tầm</span></a>
+                                    <ul class="nav__child">
+                                        <li>
+                                            <a href="02-category.html" data-id="71">
+                                                <span>Âm nhạc</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="72">
+                                                <span>Thời trang</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="132">
+                                                <span>Điện ảnh - Truyền hình</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav__parent  child-8">
+                                    <a href="02-category.html" data-id="58">
+                                        <span>Đại đoàn kết</span></a>
+                                    <ul class="nav__child">
+                                        <li>
+                                            <a href="02-category.html" data-id="104">
+                                                <span>Hình sự - Dân sự</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="141">
+                                                <span>An ninh - Trật tự</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav__parent  child-9">
+                                    <a href="02-category.html" data-id="53">
+                                        <span>Nghiên cứu</span></a>
+                                    <ul class="nav__child">
+                                        <li>
+                                            <a href="02-category.html" data-id="76">
+                                                <span>CNTT - Viễn thông</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="02-category.html" data-id="136">
+                                                <span>Thiết bị - Phần cứng</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav__parent  child-10">
+                                    <a href="02-category.html" data-id="79">
+                                        <span>Thế giới</span></a>
+                                    <ul class="nav__child">
+                                    </ul>
+                                </li>
+                                <li class="nav__parent is-last">
+                                    <a href="javascript:;">
+                                        <i class="fas fa-bars"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="site-body">
+            <div class="breaking-news">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="breaking-news">
+                                <div class="box-content">
+                                    <span class="text-title">Tin mới</span>
+                                    <div class="news-slider">
+                                        <div class="wrap">
+                                            <article class="story">
+                                                <figure class="story__thumb">
+                                                    <a href="#"><img src="fig-image/site/5x3.png?w=480&amp;h=288" alt=""></a>
+                                                    <a href="#"><img src="../figurations/site/100x100.png"></a>
+                                                    <span class="cate">Thời sự</span>
+                                                </figure>
+                                                <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
+                                            </article>
+                                            <article class="story">
+                                                <figure class="story__thumb">
+                                                    <a href="#"><img src="fig-image/site/5x3.png?w=480&amp;h=288" alt=""></a>
+                                                    <a href="#"><img src="../figurations/site/100x100.png"></a>
+                                                    <span class="cate">Thời sự</span>
+                                                </figure>
+                                                <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
+                                            </article>
+                                            <article class="story">
+                                                <figure class="story__thumb">
+                                                    <a href="#"><img src="fig-image/site/5x3.png?w=480&amp;h=288" alt=""></a>
+                                                    <a href="#"><img src="../figurations/site/100x100.png"></a>
+                                                    <span class="cate">Thời sự</span>
+                                                </figure>
+                                                <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
+                                            </article>
+                                            <article class="story">
+                                                <figure class="story__thumb">
+                                                    <a href="#"><img src="fig-image/site/5x3.png?w=480&amp;h=288" alt=""></a>
+                                                    <a href="#"><img src="../figurations/site/100x100.png"></a>
+                                                    <span class="cate">Thời sự</span>
+                                                </figure>
+                                                <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="breadcrumbs">
+                            <a class="cate" href="02-category.html">Đời sống</a>
+                            <a class="cate" href="02-category.html">Giao thông</a>
+                            <a class="cate is-active" href="02-category.html">Đô thị</a>
+                            <a class="cate" href="02-category.html">Đầu tư - Tài chính</a>
+                            <a class="cate" href="02-category.html">Môi trường</a>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="article-container">
+                            <div class="main-column">
+                                <div class="article__header">
+                                    <div class="l-grid">
+                                        <h1>Trào lưu tiếp theo sau iPhone X màn hình 'không viền' là gì?</h1>
+                                        <div class="article__meta">
+                                            <p class="author">
+                                                <span class="text">Tác giả</span>
+                                                <a href="05-author.html">DaoTq</a>
+                                            </p>
+                                            <time>02/10/2017</time>
+                                            <a class="comment" href="03-article.html">
+                                                <i class="spr spr--comment"></i>
+                                                <span class="number">12 Bình luận</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article__social-pin hidden">
+                                    <a href="#" class="fb" title="Facebook" target="_blank"><i class="spr spr--fb"></i></a>
+                                    <a href="#" class="gplus" title="google plus" target="_blank"><i class="spr spr--"></i></a>
+                                    <a href="#" class="zalo" title="Zalo" target="_blank"><i class="spr spr--zalo"></i></a>
+                                    <a href="#" class="comment" title="Comment" target="_blank"><i class="spr spr--comment"></i></a>
+                                </div>
+                                <div class="article__sapo">
+                                    Sau khi màn hình có viền siêu mỏng trở nên phổ cập và gần gũi hơn nhờ iPhone X, thì đâu mới là tính năng định hình cho xu hướng mới nói riêng và smartphone trong tương lai nói chung?
+                                </div>
+                                <div class="article__inner-relate">
+                                    <div class="story story--photo">
+                                        <h4 class="story__heading">
+                                            <a href="03-article.html">
+                                                <span class="text">Trào lưu tiếp theo sau iPhone X màn hình 'không viền' là gì?</span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="story story--photo">
+                                        <h4 class="story__heading">
+                                            <a href="03-article.html">
+                                                <span class="text">Trào lưu tiếp theo sau iPhone X màn hình 'không viền' là gì?</span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div class="story story--photo">
+                                        <h4 class="story__heading">
+                                            <a href="03-article.html">
+                                                <span class="text">Trào lưu tiếp theo sau iPhone X màn hình 'không viền' là gì?</span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="article__body">
+                                    <h3>Khái quát chính</h3>
+                                    <p>
+                                        Chiều 10/5, sau khi có danh sách 189 cá nhân và tổ chức tại Việt Nam trong hồ sơ Panama được công bố, Tổng Cục trưởng Tổng cục Thuế (Bộ Tài chính) Bùi Văn Nam đã chủ trì cuộc họp giao các ban đơn vị liên quan thành lập tiểu ban kiểm tra về vụ việc này. Tiểu ban có thành viên đến từ Vụ Thanh tra, Vụ Hợp tác quốc tế và các đơn vị liên quan khác của Tổng cục Thuế.
+                                    </p>
+                                    <p>
+                                        Tuy nhiên, theo lãnh đạo Tổng cục Thuế, việc kiểm tra sẽ mất nhiều thời gian xem xét, rà soát, do đây là thông tin quốc tế. Ngoài ra, không phải cứ có tên trong hồ sơ Panama thì tất cả đều vi phạm pháp luật. Ngoài ra, nếu người Việt nhưng định cư ở nước ngoài, cơ quan chức năng Việt Nam cũng không làm gì được. Muốn biết đúng, sai phải có tài liệu, chứng cứ. “Đây là vụ việc liên quan nhiều cơ quan, ngành Thuế chỉ là một trong số này. Tuy nhiên, cơ quan chức năng sẽ kiểm tra và có báo cáo về vụ việc này”, lãnh đạo Tổng cục Thuế nói.
+                                    </p>
+                                    <p>
+                                        Trong khi đó, một số chuyên gia về thuế khi được hỏi về vụ việc này cũng từ chối bình luận, vì thiếu thông tin. Theo chuyên gia này, mọi nhận định phải dựa trên cơ sở pháp luật, đầu tư ra nước ngoài đã phải nộp thuế, nên phải xem những người đầu tư ra nước ngoài có kê khai và nộp thuế không đúng quy định hay không, để nói được phải có chứng cứ.
+                                    </p>
+                                    <figure class="article__content-img left">
+                                        <img src="../figurations/site/700x467.png" alt="Nato has already boosted its presence in Central Europe and the Baltic states ">
+                                        <figcaption class="fig">Tài liệu này đã công khai danh tính 23 cá nhân, tổ chức trung gian</figcaption>
+                                    </figure>
+                                    <p>
+                                        Moscow's membership. But Russia cannot be so easily kicked out of the Security Council, the consensus-based Organisation for Security and Co-operation in Europe - custodian of the Helsinki Final Act that does not permit forcible changes of borders - or the World Trade Organization Moscow waited so long to join. Countries are then left with the possibility of taking bilateral action through visa bans and other restrictions.
+                                    </p>
+                                    <figure class="article__content-img full">
+                                        <img src="../figurations/site/700x467.png" alt="Nato has already boosted its presence in Central Europe and the Baltic states ">
+                                        <figcaption class="fig">Tài liệu này đã công khai danh tính 23 cá nhân, tổ chức trung gian</figcaption>
+                                    </figure>
+                                    <p>
+                                        There is always a question mark over punitive measures. Are they a help or a hindrance? As a broad principle, Western nations publicly preach the benefits of engagement over isolation and regard the cold-shoulder as an extreme measure.
+                                    </p>
+                                    <figure class="article__content-img right">
+                                        <img src="../figurations/site/700x467.png" alt="Nato has already boosted its presence in Central Europe and the Baltic states ">
+                                        <figcaption class="fig">Tài liệu này đã công khai danh tính 23 cá nhân, tổ chức trung gian</figcaption>
+                                    </figure>
+                                    <p>
+                                        But engagement has failed to check the Russian advance - or force an about-turn in Moscow. Russia acted fast in annexing Crimea, and the interim government in Kiev now fears that Moscow plans to swallow up more of Ukraine and move on to other areas with large Russian populations, such as Moldova's Trans-Dniester region. The West's tacit concession of the Crimea issue has done nothing to strengthen its diplomatic hand.
+                                    </p>
+                                    <h3>Expand economic measures</h3>
+                                    <div class="article__quote">
+                                        <i class="fas fa-quote-right"></i>
+                                        <span class="text">
+                                            This was unusually blunt language from America's top diplomat. John Kerry countered what he called "President Putin 's fantasy about what is playing out on the ground", laying out the case in prosecutorial style that Russia is co-ordinating the unrest in eastern Ukraine.
+                                        </span>
+                                        <span class="author">Nguyen Tan Dung, Vietnam's prime minister</span>
+                                    </div>
+                                    <p>
+                                        The obvious route for increasing diplomatic pressure - the UN Security Council - is blocked because Russia is a permanent member and can veto any proposed action. Other organs of the UN, such as the General Assembly, could pass non-binding resolutions, but Russia could simply ignore them.
+                                    </p>
+                                    <p>
+                                        Where it has been able to, the West has made tentative moves towards isolating Russia, cancelling a G8 meeting earlier this year and suspending
+                                    </p>
+                                    <p>
+                                        Moscow's membership. But Russia cannot be so easily kicked out of the Security Council, the consensus-based Organisation for Security and Co-operation in Europe - custodian of the Helsinki Final Act that does not permit forcible changes of borders - or the World Trade Organization Moscow waited so long to join. Countries are then left with the possibility of taking bilateral action through visa bans and other restrictions.
+                                    </p>
+                                    <p>
+                                        There is always a question mark over punitive measures. Are they a help or a hindrance? As a broad principle, Western nations publicly preach the benefits of engagement over isolation and regard the cold-shoulder as an extreme measure.
+                                    </p>
+                                    <p>
+                                        But engagement has failed to check the Russian advance - or force an about-turn in Moscow. Russia acted fast in annexing Crimea, and the interim government in Kiev now fears that Moscow plans to swallow up more of Ukraine and move on to other areas with large Russian populations, such as Moldova's Trans-Dniester region. The West's tacit concession of the Crimea issue has done nothing to strengthen its diplomatic hand.
+                                    </p>
+                                    <h3>Do nothing</h3>
+                                    <p>
+                                        The obvious route for increasing diplomatic pressure - the UN Security Council - is blocked because Russia is a permanent member and can veto any proposed action. Other organs of the UN, such as the General Assembly, could pass non-binding resolutions, but Russia could simply ignore them.
+                                    </p>
+                                    <p>
+                                        Where it has been able to, the West has made tentative moves towards isolating Russia, cancelling a G8 meeting earlier this year and suspending
+                                    </p>
+                                    <p>
+                                        Moscow's membership. But Russia cannot be so easily kicked out of the Security Council, the consensus-based Organisation for Security and Co-operation in Europe - custodian of the Helsinki Final Act that does not permit forcible changes of borders - or the World Trade Organization Moscow waited so long to join. Countries are then left with the possibility of taking bilateral action through visa bans and other restrictions.
+                                    </p>
+                                    <p>
+                                        There is always a question mark over punitive measures. Are they a help or a hindrance? As a broad principle, Western nations publicly preach the benefits of engagement over isolation and regard the cold-shoulder as an extreme measure.
+                                    </p>
+                                    <p class="article__notice">
+                                        But engagement has failed to check the Russian advance - or force an about-turn in Moscow. Russia acted fast in annexing Crimea, and the interim government in Kiev now fears that Moscow plans to swallow up more of Ukraine and move on to other areas with large Russian populations, such as Moldova's Trans-Dniester region. The West's tacit concession of the Crimea issue has done nothing to strengthen its diplomatic hand.
+                                    </p>
+                                    <p class="article__author">Lê Hữu Việt</p>
+                                </div>
+                                <div class="article__social">
+                                    <ul>
+                                        <li>
+                                            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                                        </li>
+                                    </ul>
+                                    <p class="tool">
+                                        <a href="#" class="print"><span>in bài viết</span></a>
+                                    </p>
+                                </div>
+                                <div class="article__tag">
+                                    <span class="title">Tags</span>
+                                    <p class="content">
+                                        <a href="#" title="John Stones">John Stones</a>
+                                        <a href="#"> Man City</a>
+                                        <a href="#" title=" bánh trung thu"> bánh trung thu</a>
+                                        <a href="#" title="John Stones">John Stones</a>
+                                    </p>
+                                </div>
+                                <div class="article__story-relate hidden">
+                                    <div class="story story--photo outer-story">
+                                        <figure class="story__thumb">
+                                            <a href="03-article.html"><img src="figs/site/5x3.png"></a>
+                                        </figure>
+                                        <h4 class="story__heading">
+                                            <a href="03-article.html">
+                                                <span class="cate">Xã hội</span>
+                                                <span class="text">Trào lưu tiếp theo sau iPhone X màn hình 'không viền' là gì?</span>
+                                            </a>
+                                        </h4>
+                                        <div class="story__meta">
+                                            <p class="author">
+                                                <span class="text">Tác giả</span>
+                                                <a href="05-author.html">DaoTq</a>
+                                            </p>
+                                            <time>02/10/2017</time>
+                                            <a class="comment" href="03-article.html">
+                                                <i class="spr spr--comment"></i>
+                                                <span class="number">12 Bình luận</span>
+                                            </a>
+                                        </div>
+                                        <p class="story__summary">
+                                            <span class="text">Một trong số phát kiến mới là sử dụng mặt lưng của chiếc điện thoại để làm màn hình thứ 2. Dòng sản phẩm của Yotaphone được trang bị màn e-ink tiết kiệm điện, rất tốt cho việc đọc sách mà lại chẳng hề ngốn pin. Meizu thì chơi trội hơn, mang cả tấm nền OLED ra mặt sau để hiển thị thông báo, chụp ảnh selfie bằng camera sau hay thậm chí … chơi điện tử luôn.</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="article__hot-video">
+                                    <div class="title">
+                                        <span href="#">VIDEO ĐANG ĐƯỢC XEM NHIỀU </span>
+                                    </div>
+                                    <div class="content">
+                                        <div>
+                                            <img src="figs/site/video-player.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article__comment">
+                                    <span class="title">Bình luận</span>
+                                    <div class="user">
+                                        <div class="comment">
+                                            <p class="name">Anh Tú</p>
+                                            <p class="text">Áp dụng xử phạt lỗi vượt đèn vàng chỉ đúng vói trường hợp khi đèn vang đã bật sáng mà người tham gia giao thông vẫn vượt qua. Và phải bảo đảm ở giao điểm nào hệ thống đém số thời gian của đèn cũng hoạt động tốt.</p>
+                                            <p class="tool">
+                                                <a href="#"><i class="fas fa-comments"></i>Trả lời</a>
+                                                <a href="#"><i class="fas fa-thumbs-up"></i></i>32</a>
+                                            </p>
+                                            <div class="reply">
+                                                <textarea comment-parent="122166"></textarea><a href="#" class="btnSubmit disabled">Gửi trả lời</a></div>
+                                        </div>
+                                        <div class="comment">
+                                            <p class="name">Anh Tú</p>
+                                            <p class="text">Áp dụng xử phạt lỗi vượt đèn vàng chỉ đúng vói trường hợp khi đèn vang đã bật sáng mà người tham gia giao thông vẫn vượt qua. Và phải bảo đảm ở giao điểm nào hệ thống đém số thời gian của đèn cũng hoạt động tốt.</p>
+                                            <p class="tool">
+                                                <a href="#"><i class="fas fa-comments"></i>Trả lời</a>
+                                                <a href="#"><i class="fas fa-thumbs-up"></i></i>32</a>
+                                            </p>
+                                            <div class="reply">
+                                                <textarea comment-parent="122166"></textarea><a href="#" class="btnSubmit disabled">Gửi trả lời</a></div>
+                                            <div class="sub-comments">
+                                                <div class="comment">
+                                                    <p class="name">Anh Tú</p>
+                                                    <p class="text">Áp dụng xử phạt lỗi vượt đèn vàng chỉ đúng vói trường hợp khi đèn vang đã bật sáng mà người tham gia giao thông vẫn vượt qua. Và phải bảo đảm ở giao điểm nào hệ thống đém số thời gian của đèn cũng hoạt động tốt.</p>
+                                                    <p class="tool">
+                                                        <a href="#"><i class="fas fa-comments"></i>Trả lời</a>
+                                                        <a href="#"><i class="fas fa-thumbs-up"></i></i>32</a>
+                                                    </p>
+                                                    <div class="reply">
+                                                        <textarea comment-parent="122166"></textarea><a href="#" class="btnSubmit disabled">Gửi trả lời</a></div>
+                                                </div>
+                                                <div class="comment">
+                                                    <p class="name">Anh Tú</p>
+                                                    <p class="text">Áp dụng xử phạt lỗi vượt đèn vàng chỉ đúng vói trường hợp khi đèn vang đã bật sáng mà người tham gia giao thông vẫn vượt qua. Và phải bảo đảm ở giao điểm nào hệ thống đém số thời gian của đèn cũng hoạt động tốt.</p>
+                                                    <p class="tool">
+                                                        <a href="#"><i class="fas fa-comments"></i>Trả lời</a>
+                                                        <a href="#"><i class="fas fa-thumbs-up"></i></i>32</a>
+                                                    </p>
+                                                </div>
+                                                <div class="comment">
+                                                    <p class="name">Anh Tú</p>
+                                                    <p class="text">Áp dụng xử phạt lỗi vượt đèn vàng chỉ đúng vói trường hợp khi đèn vang đã bật sáng mà người tham gia giao thông vẫn vượt qua. Và phải bảo đảm ở giao điểm nào hệ thống đém số thời gian của đèn cũng hoạt động tốt.</p>
+                                                    <p class="tool">
+                                                        <a href="#"><i class="fas fa-comments"></i>Trả lời</a>
+                                                        <a href="#"><i class="fas fa-thumbs-up"></i></i>32</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment">
+                                            <p class="name">Anh Tú</p>
+                                            <p class="text">Áp dụng xử phạt lỗi vượt đèn vàng chỉ đúng vói trường hợp khi đèn vang đã bật sáng mà người tham gia giao thông vẫn vượt qua. Và phải bảo đảm ở giao điểm nào hệ thống đém số thời gian của đèn cũng hoạt động tốt.</p>
+                                            <p class="tool">
+                                                <a href="#"><i class="fas fa-comments"></i>Trả lời</a>
+                                                <a href="#"><i class="fas fa-thumbs-up"></i></i>32</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="input">
+                                        <textarea></textarea>
+                                        <p class="note">Ý kiến của bạn sẽ được biên tập trước khi đăng. Xin vui lòng gõ tiếng Việt có dấu</p>
+                                        <button class="btn btn-sm btnSubmit" data-toggle="modal" data-target="#formCommentModal">Gửi bình luận</button>
+                                    </div>
+                                </div>
+                                <div class="article__more-news">
+                                    <div class="box-heading"><a href="02-category.html">Tin liên quan</a></div>
+                                    <div class="box-content">
+                                        <div class="row">
+                                            <div class="col-12 rank-2">
+                                                <article class="story">
+                                                    <figure class="story__thumb">
+                                                        <a href="03-article.html"><img src="../figurations/site/700x467.png"></a>
+                                                        <span class="story__cate">Thời sự</span>
+                                                    </figure>
+                                                    <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
+                                                </article>
+                                                <article class="story">
+                                                    <figure class="story__thumb">
+                                                        <a href="03-article.html"><img src="../figurations/site/700x467.png"></a>
+                                                        <span class="story__cate">Thời sự</span>
+                                                    </figure>
+                                                    <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
+                                                </article>
+                                                <article class="story">
+                                                    <figure class="story__thumb">
+                                                        <a href="03-article.html"><img src="../figurations/site/700x467.png"></a>
+                                                        <span class="story__cate">Thời sự</span>
+                                                    </figure>
+                                                    <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article__more-news">
+                                    <div class="box-heading"><a href="02-category.html">Tin cùng chuyên mục</a></div>
+                                    <div class="box-content">
+                                        <div class="row">
+                                            <div class="col-12 rank-2">
+                                                <article class="story">
+                                                    <figure class="story__thumb">
+                                                        <a href="03-article.html"><img src="../figurations/site/700x467.png"></a>
+                                                        <span class="story__cate">Thời sự</span>
+                                                    </figure>
+                                                    <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
+                                                </article>
+                                                <article class="story">
+                                                    <figure class="story__thumb">
+                                                        <a href="03-article.html"><img src="../figurations/site/700x467.png"></a>
+                                                        <span class="story__cate">Thời sự</span>
+                                                    </figure>
+                                                    <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
+                                                </article>
+                                                <article class="story">
+                                                    <figure class="story__thumb">
+                                                        <a href="03-article.html"><img src="../figurations/site/700x467.png"></a>
+                                                        <span class="story__cate">Thời sự</span>
+                                                    </figure>
+                                                    <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sub-column">
+                                <div class="box-intro">
+                                    <div class="box-heading"><a href="#">Giới thiệu</a></div>
+                                    <div class="box-content">
+                                        <div class="item">
+                                            <div class="item__thumb">
+                                                <img src="../figurations/site/item-2.png">
+                                            </div>
+                                            <div class="item__text">
+                                                <span class="name">
+                                                    <small>Đồng chí</small>
+                                                    <span>Trần Thanh Mẫn</span>
+                                                </span>
+                                                <span class="desc">Bí thư Trung ương đảng, Chủ tịch ủy bạn MTTQ Việt Nam</span>
+                                            </div>
+                                        </div>
+                                        <span class="btn-more"><a href="#">Xem thêm</a></span>
+                                    </div>
+                                </div>
+                                <div class="box-relate-site">
+                                    <div class="box-heading"><a href="#">liên kết website</a></div>
+                                    <div class="box-content">
+                                        <div class="select-relate-site">
+                                            <i class="fas fa-globe"></i>
+                                            <select>
+                                                <option>Chính phủ</option>
+                                                <option>Đảng cộng sản</option>
+                                                <option>option-03</option>
+                                                <option>option-04</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="send-us">
+                                    <i class="far fa-envelope-open"></i>
+                                    <span>Gửi ban biên tập</span>
+                                </a>
+                                <div href="#" class="mattran-info">
+                                    <div class="box-heading"><a href="#">Ủy ban mặt trận các tỉnh thành phố</a></div>
+                                    <div class="box-content">
+                                        <div class="mattran-search">
+                                            <input type="text" placeholder="Tìm kiếm">
+                                            <button><i class="fas fa-search"></i></button>
+                                        </div>
+                                        <div class="mattran-list">
+                                            <p class="title">Danh sách các mặt trận toàn quốc:</p>
+                                            <div class="wrap">
+                                                <a href="#"><i class="fas fa-globe"></i><span>Mặt trận thành phố Hà Nội</span></a>
+                                                <a href="#"><i class="fas fa-globe"></i><span>Mặt trận thành phố Hồ Chí Minh</span></a>
+                                                <a href="#"><i class="fas fa-globe"></i><span>Mặt trận thành phố Hải Phòng</span></a>
+                                                <a href="#"><i class="fas fa-globe"></i><span>Mặt trận thành phố Huế</span></a>
+                                                <a href="#"><i class="fas fa-globe"></i><span>Mặt trận thành phố Hà Nội</span></a>
+                                                <a href="#"><i class="fas fa-globe"></i><span>Mặt trận thành phố Hồ Chí Minh</span></a>
+                                                <a href="#"><i class="fas fa-globe"></i><span>Mặt trận thành phố Hải Phòng</span></a>
+                                                <a href="#"><i class="fas fa-globe"></i><span>Mặt trận thành phố Huế</span></a>
+                                                <a href="#"><i class="fas fa-globe"></i><span>Mặt trận thành phố Hà Nội</span></a>
+                                                <a href="#"><i class="fas fa-globe"></i><span>Mặt trận thành phố Hồ Chí Minh</span></a>
+                                                <a href="#"><i class="fas fa-globe"></i><span>Mặt trận thành phố Hải Phòng</span></a>
+                                                <a href="#"><i class="fas fa-globe"></i><span>Mặt trận thành phố Huế</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-file">
+                                    <div class="box-heading"><a href="#">Văn bản</a></div>
+                                    <div class="box-content">
+                                        <div class="panel-wrap">
+                                            <div class="panel-title">
+                                                <a href="#" class="is-active" data-target="file-huong-dan">Hướng dẫn</a>
+                                                <a href="#" data-target="file-phap-luat">Pháp luật</a>
+                                            </div>
+                                            <div class="panel-content">
+                                                <div class="panel is-active" id="file-huong-dan">
+                                                    <div class="story">
+                                                        <div class="story__heading"><i class="fas fa-folder-open"></i><a href="03-article.html">Cuồng nhiệt với ngày hội thể thao sinh viên TP.HCM</a></div>
+                                                    </div>
+                                                    <div class="story">
+                                                        <div class="story__heading"><i class="fas fa-folder-open"></i><a href="03-article.html">Rùa biển quý hiếm lại được phát hiện trên đầm Lăng Cô</a></div>
+                                                    </div>
+                                                    <div class="story">
+                                                        <div class="story__heading"><i class="fas fa-folder-open"></i><a href="03-article.html">Hà Nội FC ngược dòng ngoạn mục hạ Hải Phòng trong màn mưa pháo sáng</a></div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel" id="file-phap-luat">
+                                                    <div class="story">
+                                                        <div class="story__heading"><i class="fas fa-folder-open"></i><a href="03-article.html">Cuồng nhiệt với ngày hội thể thao sinh viên TP.HCM</a></div>
+                                                    </div>
+                                                    <div class="story">
+                                                        <div class="story__heading"><i class="fas fa-folder-open"></i><a href="03-article.html">Rùa biển quý hiếm lại được phát hiện trên đầm Lăng Cô</a></div>
+                                                    </div>
+                                                    <div class="story">
+                                                        <div class="story__heading"><i class="fas fa-folder-open"></i><a href="03-article.html">Hà Nội FC ngược dòng ngoạn mục hạ Hải Phòng trong màn mưa pháo sáng</a></div>
+                                                    </div>
+                                                    <div class="story">
+                                                        <div class="story__heading"><i class="fas fa-folder-open"></i><a href="03-article.html">Cuồng nhiệt với ngày hội thể thao sinh viên TP.HCM</a></div>
+                                                    </div>
+                                                    <div class="story">
+                                                        <div class="story__heading"><i class="fas fa-folder-open"></i><a href="03-article.html">Rùa biển quý hiếm lại được phát hiện trên đầm Lăng Cô</a></div>
+                                                    </div>
+                                                    <div class="story">
+                                                        <div class="story__heading"><i class="fas fa-folder-open"></i><a href="03-article.html">Hà Nội FC ngược dòng ngoạn mục hạ Hải Phòng trong màn mưa pháo sáng</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-file">
+                                            <div class="title">Tìm kiếm văn bản</div>
+                                            <div class="content">
+                                                <div class="wrap-input">
+                                                    <input type="" name="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="select-file-type" class="col-form-label">Chọn loại</label>
+                                                    <div class="select-file-type-1">
+                                                        <select id="select-file-type">
+                                                            <option>option-01</option>
+                                                            <option>option-02</option>
+                                                            <option>option-03</option>
+                                                            <option>option-04</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group" style="justify-content: space-between; margin-right: 5px;">
+                                                    <label for="select-file-type-2" class="col-form-label">Chọn năm</label>
+                                                    <div class="select-file-type-2">
+                                                        <select id="select-file-type-2">
+                                                            <option>option-01</option>
+                                                            <option>option-02</option>
+                                                            <option>option-03</option>
+                                                            <option>option-04</option>
+                                                        </select>
+                                                    </div>
+                                                    <button class="button-action">Tìm kiếm</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <div class="site-body">
-        <!-- full-size -->
-        <div class="article">
-            <p class="article__cover body-image img-fullSize">
-                <img src="../figurations/photoswipe/item-5.png" class="img-fluid" alt="">
-            </p>
-            <div class="article__header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            Dự án cao tốc Vân Đồn – Móng Cái dài nhất Quảng Ninh chính thức khởi công
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="copy-right">
+                            <h2>
+                                <small>Trang thông tin điện tử</small>
+                                <span>Mặt trận tổ quốc việt nam</span>
+                            </h2>
+                            <p>Trưởng ban biên tập : <b>VŨ VĂN TIẾN</b></p>
+                            <p>Giấy phép số: 111/GP-BC của bộ Thông Tin và Truyền Thông</p>
+                            <p>Địa chỉ : 46 Tràng Thi - Quận Hoàn Kiếm - Hà Nội </p>
+                            <p>ĐT : 024.38.258.539 - 08046058</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="box-link">
+                            <div class="box-heading">Giới thiệu</div>
+                            <div class="box-content">
+                                <ul class="link">
+                                    <li><a href="02-category.html">Giới thiệu chung</a></li>
+                                    <li><a href="02-category.html">Tin hoạt động</a></li>
+                                    <li><a href="02-category.html">Tin tức tổng hợp</a></li>
+                                    <li><a href="02-category.html">Thông tin liên hệ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="box-link">
+                            <div class="box-heading">Tổ chức</div>
+                            <div class="box-content">
+                                <ul class="link">
+                                    <li><a href="02-category.html">Hội đồng tư vấn</a></li>
+                                    <li><a href="02-category.html">Tổ chức thành viên</a></li>
+                                    <li><a href="02-category.html">Giám sát - Phản biện xã hội</a></li>
+                                    <li><a href="02-category.html">Chương trình phối hợp</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="box-link">
+                            <div class="box-heading">Thư viện</div>
+                            <div class="box-content">
+                                <ul class="link">
+                                    <li><a href="02-category.html">Văn bản hướng dẫn</a></li>
+                                    <li><a href="02-category.html">Văn bản pháp luật</a></li>
+                                    <li><a href="02-category.html">Thư viện video</a></li>
+                                    <li><a href="02-category.html">Thư viện hình ảnh</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="article__sapo">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            (Kiến Thức) - Ngày 03/4/2019, Ủy ban nhân dân tỉnh Quảng Ninh chính thức khởi công dự án giao thông trọng điểm: Đường cao tốc Vân Đồn – Móng Cái. Với tổng chiều dài 80,2 km, đây sẽ là tuyến cao tốc dài nhất của Quảng Ninh, đấu nối với các tuyến cao tốc đã và đang vận hành, góp phần hình thành trục huyết mạch giao thương trọng điểm khu vực phía Bắc.
-                        </div>
-                    </div>
-                </div>
+        </footer>
+    </div>
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
             </div>
-            <div class="article__body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="body-text">
-                                <p class="body-image float-md-left"><img src="../figurations/photoswipe/item-3.png" alt=""></p>
-                                Với tổng vốn đầu tư 11.195 tỷ đồng, dự án đường cao tốc Vân Đồn – Móng Cái được đầu tư theo hình thức đối tác công tư (PPP), hợp đồng Xây dựng - Kinh doanh - Chuyển giao (BOT), do Công ty TNHH Đầu tư và Phát triển Hạ tầng Vân Đồn (thuộc Tập đoàn Sun Group) làm chủ đầu tư.
-                            </div>
-                            <div class="body-text">
-                                Tham dự sự kiện có Phó Chủ tịch Quốc Hội Phùng Quốc Hiển, Phó Thủ tướng Chính phủ Trịnh Đình Dũng, Bí thư Tỉnh ủy Quảng Ninh Nguyễn Văn Đọc, Chủ tịch UBND tỉnh Quảng Ninh Nguyễn Đức Long cùng đại diện lãnh đạo nhiều cơ quan Bộ, ngành Trung ương và địa phương.
-                                Phát biểu tại Lễ khởi công, Phó Thủ tướng Chính phủ Trịnh Đình Dũng nhấn mạnh: Trong những năm qua, Quảng Ninh bằng tâm huyết, quyết tâm chính trị cao, với tư duy đổi mới, đột phá trong cách nghĩ, cách làm đã tạo ra sự bứt phá trong việc huy động các nguồn lực cho phát triển, và đặc biệt phát triển hệ thống kết cấu hạ tầng giao thông của địa phương.
-                                “Việc tiếp tục thực hiện đầu tư tuyến cao tốc Vân Đồn – Móng Cái thể hiện nỗ lực, cố gắng rất cao, quyết liệt, sáng tạo trong tư duy, hành động của lãnh đạo Quảng Ninh, đoàn kết đồng thuận trong việc triển khai dự án, thể hiện sự vào cuộc có trách nhiệm của nhà đầu tư mà đứng đầu ở đây là Tập đoàn Sun Group - Tập đoàn đã tạo ra những sản phẩm rất ngoạn mục, tạo ra hình ảnh mới về du lịch Việt Nam trong mắt người dân Việt Nam và bạn bè quốc tế”, Phó Thủ tướng Trịnh Đình Dũng nói.
-                            </div>
-                            <div class="body-text">
-                                <p class="body-image float-md-left"><img src="../figurations/photoswipe/item-3.png" alt=""></p>
-                                Với tổng vốn đầu tư 11.195 tỷ đồng, dự án đường cao tốc Vân Đồn – Móng Cái được đầu tư theo hình thức đối tác công tư (PPP), hợp đồng Xây dựng - Kinh doanh - Chuyển giao (BOT), do Công ty TNHH Đầu tư và Phát triển Hạ tầng Vân Đồn (thuộc Tập đoàn Sun Group) làm chủ đầu tư.
-                            </div>
-                            <div class="body-text">
-                                Tham dự sự kiện có Phó Chủ tịch Quốc Hội Phùng Quốc Hiển, Phó Thủ tướng Chính phủ Trịnh Đình Dũng, Bí thư Tỉnh ủy Quảng Ninh Nguyễn Văn Đọc, Chủ tịch UBND tỉnh Quảng Ninh Nguyễn Đức Long cùng đại diện lãnh đạo nhiều cơ quan Bộ, ngành Trung ương và địa phương.
-                                Phát biểu tại Lễ khởi công, Phó Thủ tướng Chính phủ Trịnh Đình Dũng nhấn mạnh: Trong những năm qua, Quảng Ninh bằng tâm huyết, quyết tâm chính trị cao, với tư duy đổi mới, đột phá trong cách nghĩ, cách làm đã tạo ra sự bứt phá trong việc huy động các nguồn lực cho phát triển, và đặc biệt phát triển hệ thống kết cấu hạ tầng giao thông của địa phương.
-                                “Việc tiếp tục thực hiện đầu tư tuyến cao tốc Vân Đồn – Móng Cái thể hiện nỗ lực, cố gắng rất cao, quyết liệt, sáng tạo trong tư duy, hành động của lãnh đạo Quảng Ninh, đoàn kết đồng thuận trong việc triển khai dự án, thể hiện sự vào cuộc có trách nhiệm của nhà đầu tư mà đứng đầu ở đây là Tập đoàn Sun Group - Tập đoàn đã tạo ra những sản phẩm rất ngoạn mục, tạo ra hình ảnh mới về du lịch Việt Nam trong mắt người dân Việt Nam và bạn bè quốc tế”, Phó Thủ tướng Trịnh Đình Dũng nói.
-                            </div>
-                            <div class="body-text">
-                                <p class="body-image float-md-right">
-                                    <img src="../figurations/photoswipe/item-2.png" alt="">
-                                    <span class="caption">
-                            “Việc tiếp tục thực hiện đầu tư tuyến cao tốc Vân Đồn – Móng Cái thể hiện nỗ lực, cố gắng rất cao, quyết liệt,`
-                        </span>
-                                </p>
-                            </div>
-                            <div class="body-text">
-                                <p class="body-image float-md-left">
-                                    <img src="../figurations/photoswipe/item-3.png" alt="">
-                                    <span class="caption">
-                            “Việc tiếp tục thực hiện đầu tư tuyến cao tốc Vân Đồn – Móng Cái thể hiện nỗ lực, cố gắng rất cao, quyết liệt,`
-                        </span>
-                                </p>
-                                Tham dự sự kiện có Phó Chủ tịch Quốc Hội Phùng Quốc Hiển, Phó Thủ tướng Chính phủ Trịnh Đình Dũng, Bí thư Tỉnh ủy Quảng Ninh Nguyễn Văn Đọc, Chủ tịch UBND tỉnh Quảng Ninh Nguyễn Đức Long cùng đại diện lãnh đạo nhiều cơ quan Bộ, ngành Trung ương và địa phương.
-                                Phát biểu tại Lễ khởi công, Phó Thủ tướng Chính phủ Trịnh Đình Dũng nhấn mạnh: Trong những năm qua, Quảng Ninh bằng tâm huyết, quyết tâm chính trị cao, với tư duy đổi mới, đột phá trong cách nghĩ, cách làm đã tạo ra sự bứt phá trong việc huy động các nguồn lực cho phát triển, và đặc biệt phát triển hệ thống kết cấu hạ tầng giao thông của địa phương.
-                                “Việc tiếp tục thực hiện đầu tư tuyến cao tốc Vân Đồn – Móng Cái thể hiện nỗ lực, cố gắng rất cao, quyết liệt, sáng tạo trong tư duy, hành động của lãnh đạo Quảng Ninh, đoàn kết đồng thuận trong việc triển khai dự án, thể hiện sự vào cuộc có trách nhiệm của nhà đầu tư mà đứng đầu ở đây là Tập đoàn Sun Group - Tập đoàn đã tạo ra những sản phẩm rất ngoạn mục, tạo ra hình ảnh mới về du lịch Việt Nam trong mắt người dân Việt Nam và bạn bè quốc tế”, Phó Thủ tướng Trịnh Đình Dũng nói.
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col">
-                            <p class="body-image img-fullSize">
-                                <img src="../figurations/photoswipe/item-5.png" class="img-fluid" alt="">
-                                <span class="caption">“Việc tiếp tục thực hiện đầu tư tuyến cao tốc Vân Đồn – Móng Cái thể hiện nỗ lực, cố gắng rất cao, quyết liệt,`</span>
-                            </p>
-                        </div>
-                    </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="body-text">
-                                Tham dự sự kiện có Phó Chủ tịch Quốc Hội Phùng Quốc Hiển, Phó Thủ tướng Chính phủ Trịnh Đình Dũng, Bí thư Tỉnh ủy Quảng Ninh Nguyễn Văn Đọc, Chủ tịch UBND tỉnh Quảng Ninh Nguyễn Đức Long cùng đại diện lãnh đạo nhiều cơ quan Bộ, ngành Trung ương và địa phương.
-                                Phát biểu tại Lễ khởi công, Phó Thủ tướng Chính phủ Trịnh Đình Dũng nhấn mạnh: Trong những năm qua, Quảng Ninh bằng tâm huyết, quyết tâm chính trị cao, với tư duy đổi mới, đột phá trong cách nghĩ, cách làm đã tạo ra sự bứt phá trong việc huy động các nguồn lực cho phát triển, và đặc biệt phát triển hệ thống kết cấu hạ tầng giao thông của địa phương.
-                                “Việc tiếp tục thực hiện đầu tư tuyến cao tốc Vân Đồn – Móng Cái thể hiện nỗ lực, cố gắng rất cao, quyết liệt, sáng tạo trong tư duy, hành động của lãnh đạo Quảng Ninh, đoàn kết đồng thuận trong việc triển khai dự án, thể hiện sự vào cuộc có trách nhiệm của nhà đầu tư mà đứng đầu ở đây là Tập đoàn Sun Group - Tập đoàn đã tạo ra những sản phẩm rất ngoạn mục, tạo ra hình ảnh mới về du lịch Việt Nam trong mắt người dân Việt Nam và bạn bè quốc tế”, Phó Thủ tướng Trịnh Đình Dũng nói.
-                            </div>
-                            <div class="body-text">
-                                Tham dự sự kiện có Phó Chủ tịch Quốc Hội Phùng Quốc Hiển, Phó Thủ tướng Chính phủ Trịnh Đình Dũng, Bí thư Tỉnh ủy Quảng Ninh Nguyễn Văn Đọc, Chủ tịch UBND tỉnh Quảng Ninh Nguyễn Đức Long cùng đại diện lãnh đạo nhiều cơ quan Bộ, ngành Trung ương và địa phương.
-                                Phát biểu tại Lễ khởi công, Phó Thủ tướng Chính phủ Trịnh Đình Dũng nhấn mạnh: Trong những năm qua, Quảng Ninh bằng tâm huyết, quyết tâm chính trị cao, với tư duy đổi mới, đột phá trong cách nghĩ, cách làm đã tạo ra sự bứt phá trong việc huy động các nguồn lực cho phát triển, và đặc biệt phát triển hệ thống kết cấu hạ tầng giao thông của địa phương.
-                                “Việc tiếp tục thực hiện đầu tư tuyến cao tốc Vân Đồn – Móng Cái thể hiện nỗ lực, cố gắng rất cao, quyết liệt, sáng tạo trong tư duy, hành động của lãnh đạo Quảng Ninh, đoàn kết đồng thuận trong việc triển khai dự án, thể hiện sự vào cuộc có trách nhiệm của nhà đầu tư mà đứng đầu ở đây là Tập đoàn Sun Group - Tập đoàn đã tạo ra những sản phẩm rất ngoạn mục, tạo ra hình ảnh mới về du lịch Việt Nam trong mắt người dân Việt Nam và bạn bè quốc tế”, Phó Thủ tướng Trịnh Đình Dũng nói.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col">
-                            <p class="body-image img-fullSize">
-                                <img src="../figurations/photoswipe/item-5.png" class="img-fluid" alt="">
-                                <span class="caption">“Việc tiếp tục thực hiện đầu tư tuyến cao tốc Vân Đồn – Móng Cái thể hiện nỗ lực, cố gắng rất cao, quyết liệt,`</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="body-text">
-                                Tham dự sự kiện có Phó Chủ tịch Quốc Hội Phùng Quốc Hiển, Phó Thủ tướng Chính phủ Trịnh Đình Dũng, Bí thư Tỉnh ủy Quảng Ninh Nguyễn Văn Đọc, Chủ tịch UBND tỉnh Quảng Ninh Nguyễn Đức Long cùng đại diện lãnh đạo nhiều cơ quan Bộ, ngành Trung ương và địa phương.
-                                Phát biểu tại Lễ khởi công, Phó Thủ tướng Chính phủ Trịnh Đình Dũng nhấn mạnh: Trong những năm qua, Quảng Ninh bằng tâm huyết, quyết tâm chính trị cao, với tư duy đổi mới, đột phá trong cách nghĩ, cách làm đã tạo ra sự bứt phá trong việc huy động các nguồn lực cho phát triển, và đặc biệt phát triển hệ thống kết cấu hạ tầng giao thông của địa phương.
-                            </div>
-                            <div class="body-author">Tác giả</div>
-                        </div>
-                    </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="site-footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <div class="article-control">
-                        <a href="#"  class="prev">
-                            <i class="icon icon--mix-prev"></i>
-                            <p class="text">
-                                <span class="main-title">Lời mở đầu</span>
-                                <span class="sub-title">Việc tiếp tục thực hiện đầu tư tuyến cao tốc Vân Đồn</span>
-                            </p>
-                        </a>
-                        <a href="#"  class="next">
-                            <i class="icon icon--mix-next"></i>
-                            <p class="text">
-                                <span class="main-title">Chương tiếp</span>
-                                <span class="sub-title">Móng Cái thể hiện nỗ lực, cố gắng rất cao, quyết liệt,`</span>
-                            </p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
     <!-- JS Global Compulsory -->
     <script src="../js/vendor/jquery-3.1.1.js" defer></script>
+    <script src="../js/vendor/jquery.slimscroll.min.js" defer></script>
+    <script src="../js/vendor/jquery.bxslider.min.js" defer></script>
+    <script src="../js/photoSwipe/dist/photoswipe.min.js" defer></script>
+    <script src="../js/photoSwipe/dist/photoswipe-ui-default.min.js" defer></script>
     <script src="../js/ui.js" defer></script>
 </body>
 
