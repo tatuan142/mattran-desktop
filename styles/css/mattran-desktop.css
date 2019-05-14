@@ -7147,9 +7147,15 @@ p {
         .box-style-3 .box-content .rank-2 .story:first-child {
           margin-left: 0; }
 
+.category-container .box-style-1 {
+  margin-top: 0; }
+  .category-container .box-style-1 .box-content {
+    margin-top: 0; }
+
 .list-news {
   background-color: #fff;
-  padding: 20px; }
+  padding: 20px;
+  border-top: 1px solid #dee2e6; }
   .list-news .story {
     border-top: 1px solid #e9ecef;
     margin-top: 16px;
