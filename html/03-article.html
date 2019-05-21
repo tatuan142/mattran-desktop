@@ -15,6 +15,73 @@
 </head>
 
 <body>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="clearfix">
+                        <div class="form-group clearfix">
+                            <label for="inputPassword3" class="col-sm-3 control-label">Tên của bạn</label>
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="Nhập họ và tên" id="txtName26780" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="inputEmail3" class="col-sm-3 control-label">Email</label>
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="Nhập địa chỉ email" id="txtMail26780" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="inputEmail3" class="col-sm-3 control-label">Tiêu đề</label>
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="Nhập tiêu đề" id="txtMail26780" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="inputEmail3" class="col-sm-3 control-label">Mô tả</label>
+                            <div class="col-sm-9">
+                                <input type="text" placeholder="Nhập mô tả" id="txtMail26780" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Nội dung</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Capchar</label>
+                            <div class="form-inline">
+                                <div class="form-group mb-2 mr-4">
+                                    <img src="../figurations/site/capchar.png" alt="">
+                                </div>
+                                <div class="form-group mx-sm-3 mb-2">
+                                    <input type="password" class="form-control" id="inputPassword2" placeholder="Capchar">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">File đính kèm</label>
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="customFile">
+                                <label class="custom-file-label" for="customFile">Choose file</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="wrapper category-page">
         <header class="site-header">
             <div class="site-header__top">
@@ -505,7 +572,8 @@
                                                 <a href="#"><i class="fas fa-thumbs-up"></i></i>32</a>
                                             </p>
                                             <div class="reply">
-                                                <textarea comment-parent="122166"></textarea><a href="#" class="btnSubmit disabled">Gửi trả lời</a></div>
+                                                <textarea comment-parent="122166"></textarea>
+                                                <a href="#" class="btnSubmit" data-toggle="modal" data-target="#exampleModal">Gửi trả lời</a></div>
                                         </div>
                                         <div class="comment">
                                             <p class="name">Anh Tú</p>
@@ -823,49 +891,12 @@
             </div>
         </footer>
     </div>
-    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div>
-                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                    <button class="pswp__button pswp__button--share" title="Share"></button>
-                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div>
-                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-                </button>
-                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-                </button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- JS Global Compulsory -->
-    <script src="../js/vendor/jquery-3.1.1.js" defer></script>
-    <script src="../js/vendor/jquery.slimscroll.min.js" defer></script>
-    <script src="../js/vendor/jquery.bxslider.min.js" defer></script>
-    <script src="../js/photoSwipe/dist/photoswipe.min.js" defer></script>
-    <script src="../js/photoSwipe/dist/photoswipe-ui-default.min.js" defer></script>
-    <script src="../js/ui.js" defer></script>
+    <script src="../js/vendor/jquery-3.1.1.js"></script>
+    <script src="../js/vendor/jquery.slimscroll.min.js"></script>
+    <script src="../js/vendor/jquery.bxslider.min.js"></script>
+    <script src="../js/bootstrap-4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/ui.js"></script>
 </body>
 
 </html>
