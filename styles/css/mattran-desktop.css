@@ -9804,6 +9804,7 @@ p {
       justify-content: space-between;
       margin-top: 10px; }
       .article__more-news .box-content .rank-2 .story {
+        width: 206px;
         margin-left: 16px; }
         .article__more-news .box-content .rank-2 .story__heading {
           font-weight: bold; }
