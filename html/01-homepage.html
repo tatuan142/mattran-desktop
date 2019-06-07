@@ -15,31 +15,6 @@
 </head>
 
 <body>
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-      Launch demo modal
-    </button>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="wrapper home-page">
         <header class="site-header">
             <div class="site-header__top">
@@ -62,7 +37,7 @@
                 </div>
             </div>
             <div class="site-header__body">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <h1 class="logo"><a href="01-homepage.html"></a></h1>
@@ -650,7 +625,15 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="box-style-3">
-                                            <div class="box-heading"><a href="02-category.html">Thư viện Ảnh</a></div>
+                                            <div class="box-heading">
+                                                <div class="main">
+                                                    <a href="02-category.html">Thư viện Ảnh</a>
+                                                </div>
+                                                <div class="sub">
+                                                    <a href="02-category.html">Tin hoạt dộng</a>
+                                                    <a href="02-category.html">Hoạt động mặt trận địa phương</a>
+                                                </div>
+                                            </div>
                                             <div class="box-content">
                                                 <div class="row">
                                                     <div class="col-12 rank-1">
@@ -956,7 +939,7 @@
                                     </div>
                                 </div>
                                 <div href="#" class="box-style-4">
-                                    <div class="box-heading"><a href="#">Các chương trình phối hợp</a></div>
+                                    <div class="box-heading"><div class="main"><a href="#">Các chương trình phối hợp</a></div></div>
                                     <div class="box-content">
                                         <div class="rank-1">
                                             <article class="story">
@@ -981,6 +964,64 @@
                                                 <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
                                             </article>
                                         </div>
+                                    </div>
+                                </div>
+                                <div href="#" class="box-style-4">
+                                    <div class="box-heading"><div class="main"><a href="#">Video</a></div></div>
+                                    <div class="box-content">
+                                        <div class="rank-1">
+                                            <article class="story">
+                                                <figure class="story__thumb">
+                                                    <i class="far fa-play-circle"></i>
+                                                    <a href="03-article.html"><img src="../figurations/site/700x467.png"></a>
+                                                    <span class="story__cate">Thời sự</span>
+                                                </figure>
+                                                <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
+                                            </article>
+                                        </div>
+                                        <div class="rank-2">
+                                            <article class="story">
+                                                <figure class="story__thumb">
+                                                    <i class="far fa-play-circle"></i>
+                                                    <a href="03-article.html"><img src="../figurations/site/700x467.png"></a>
+                                                    <span class="story__cate">Thời sự</span>
+                                                </figure>
+                                                <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
+                                            </article>
+                                            <article class="story">
+                                                <figure class="story__thumb">
+                                                    <i class="far fa-play-circle"></i>
+                                                    <a href="03-article.html"><img src="../figurations/site/700x467.png"></a>
+                                                    <span class="story__cate">Thời sự</span>
+                                                </figure>
+                                                <div class="story__heading"><a href="03-article.html">Tin chính thức về vụ Bí thư và Chủ tịch HĐND Yên Bái bị bắn</a></div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box-poll box-style-4">
+                                    <div class="box-heading"><div class="main"><a href="#">Các chương trình phối hợp</a></div></div>
+                                    <div class="box-content">
+                                        <p class="desc">
+                                            Theo bạn, khán giả Việt Nam quay lưng lại với bóng đá và không đến sân xem V-League vì:
+                                        </p>
+                                        <label>
+                                            <input type="radio" name="01">
+                                            <span>Nhiều trận đấu bạo lực, thiếu văn hóa</span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="01">
+                                            <span>Không tin trận đấu diễn ra trung thực, trọng tài công minh</span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="01">
+                                            <span>Trận đấu không hay</span>
+                                        </label>
+                                    </div>
+                                    <div class="wrap-button">
+                                        <button class="send">Gửi</button>
+                                        <button class="result">Xem kết quả</button>
                                     </div>
                                 </div>
                             </div>
